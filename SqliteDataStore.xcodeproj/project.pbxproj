@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1009B5254CBA2E595DB749DF /* Pods_SqliteDataStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C9C769161631D88CABCD11 /* Pods_SqliteDataStore.framework */; };
+		1755566D23AA300F00C216DE /* SCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755566C23AA300F00C216DE /* SCViewController.swift */; };
+		17AF519723AA05CF002245EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AF519623AA05CF002245EA /* AppDelegate.swift */; };
+		17AF519923AA05CF002245EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AF519823AA05CF002245EA /* SceneDelegate.swift */; };
+		17AF519B23AA05CF002245EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AF519A23AA05CF002245EA /* ViewController.swift */; };
+		17AF519E23AA05CF002245EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17AF519C23AA05CF002245EA /* Main.storyboard */; };
+		17AF51A023AA05D7002245EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17AF519F23AA05D7002245EA /* Assets.xcassets */; };
+		17AF51A323AA05D7002245EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17AF51A123AA05D7002245EA /* LaunchScreen.storyboard */; };
+		17AF51AE23AA05D7002245EA /* SqliteDataStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AF51AD23AA05D7002245EA /* SqliteDataStoreTests.swift */; };
+		17AF51B923AA05D7002245EA /* SqliteDataStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AF51B823AA05D7002245EA /* SqliteDataStoreUITests.swift */; };
+		39AA9C6FDCBD2D749BA604F2 /* Pods_SqliteDataStore_SqliteDataStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241A850D669AE4FCFB931EB7 /* Pods_SqliteDataStore_SqliteDataStoreUITests.framework */; };
+		DC0A3A1CD06BD3DA18608C44 /* Pods_SqliteDataStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F26D49BC000784CB2316EF1 /* Pods_SqliteDataStoreTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17AF51AA23AA05D7002245EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17AF518B23AA05CE002245EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17AF519223AA05CF002245EA;
+			remoteInfo = SqliteDataStore;
+		};
+		17AF51B523AA05D7002245EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17AF518B23AA05CE002245EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17AF519223AA05CF002245EA;
+			remoteInfo = SqliteDataStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070F2FC87FE8A08A469D52CD /* Pods-SqliteDataStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteDataStore.release.xcconfig"; path = "Target Support Files/Pods-SqliteDataStore/Pods-SqliteDataStore.release.xcconfig"; sourceTree = "<group>"; };
+		1755566C23AA300F00C216DE /* SCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewController.swift; sourceTree = "<group>"; };
+		17AF519323AA05CF002245EA /* SqliteDataStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqliteDataStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AF519623AA05CF002245EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17AF519823AA05CF002245EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17AF519A23AA05CF002245EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17AF519D23AA05CF002245EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17AF519F23AA05D7002245EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17AF51A223AA05D7002245EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17AF51A423AA05D7002245EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17AF51A923AA05D7002245EA /* SqliteDataStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteDataStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AF51AD23AA05D7002245EA /* SqliteDataStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteDataStoreTests.swift; sourceTree = "<group>"; };
+		17AF51AF23AA05D7002245EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17AF51B423AA05D7002245EA /* SqliteDataStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteDataStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AF51B823AA05D7002245EA /* SqliteDataStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteDataStoreUITests.swift; sourceTree = "<group>"; };
+		17AF51BA23AA05D7002245EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241A850D669AE4FCFB931EB7 /* Pods_SqliteDataStore_SqliteDataStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqliteDataStore_SqliteDataStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBAC4E7943799C43FCCF3BE /* Pods-SqliteDataStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteDataStore.debug.xcconfig"; path = "Target Support Files/Pods-SqliteDataStore/Pods-SqliteDataStore.debug.xcconfig"; sourceTree = "<group>"; };
+		7F26D49BC000784CB2316EF1 /* Pods_SqliteDataStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqliteDataStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D529EF191B3DC5A2BE2F963 /* Pods-SqliteDataStore-SqliteDataStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteDataStore-SqliteDataStoreUITests.release.xcconfig"; path = "Target Support Files/Pods-SqliteDataStore-SqliteDataStoreUITests/Pods-SqliteDataStore-SqliteDataStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4843BAA209A9774F2B47B7C /* Pods-SqliteDataStore-SqliteDataStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteDataStore-SqliteDataStoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-SqliteDataStore-SqliteDataStoreUITests/Pods-SqliteDataStore-SqliteDataStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C9C769161631D88CABCD11 /* Pods_SqliteDataStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqliteDataStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BB8BB27D22C936FEDFCA6F /* Pods-SqliteDataStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteDataStoreTests.debug.xcconfig"; path = "Target Support Files/Pods-SqliteDataStoreTests/Pods-SqliteDataStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF76C86EB3D294B3237D882B /* Pods-SqliteDataStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteDataStoreTests.release.xcconfig"; path = "Target Support Files/Pods-SqliteDataStoreTests/Pods-SqliteDataStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17AF519023AA05CF002245EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1009B5254CBA2E595DB749DF /* Pods_SqliteDataStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AF51A623AA05D7002245EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0A3A1CD06BD3DA18608C44 /* Pods_SqliteDataStoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AF51B123AA05D7002245EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AA9C6FDCBD2D749BA604F2 /* Pods_SqliteDataStore_SqliteDataStoreUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17AF518A23AA05CE002245EA = {
+			isa = PBXGroup;
+			children = (
+				17AF519523AA05CF002245EA /* SqliteDataStore */,
+				17AF51AC23AA05D7002245EA /* SqliteDataStoreTests */,
+				17AF51B723AA05D7002245EA /* SqliteDataStoreUITests */,
+				17AF519423AA05CF002245EA /* Products */,
+				A575D2BD0E3FDD74F9760D69 /* Pods */,
+				E5A8076603870684BE4BFBF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17AF519423AA05CF002245EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17AF519323AA05CF002245EA /* SqliteDataStore.app */,
+				17AF51A923AA05D7002245EA /* SqliteDataStoreTests.xctest */,
+				17AF51B423AA05D7002245EA /* SqliteDataStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17AF519523AA05CF002245EA /* SqliteDataStore */ = {
+			isa = PBXGroup;
+			children = (
+				17AF519623AA05CF002245EA /* AppDelegate.swift */,
+				17AF519823AA05CF002245EA /* SceneDelegate.swift */,
+				17AF519A23AA05CF002245EA /* ViewController.swift */,
+				1755566C23AA300F00C216DE /* SCViewController.swift */,
+				17AF519C23AA05CF002245EA /* Main.storyboard */,
+				17AF519F23AA05D7002245EA /* Assets.xcassets */,
+				17AF51A123AA05D7002245EA /* LaunchScreen.storyboard */,
+				17AF51A423AA05D7002245EA /* Info.plist */,
+			);
+			path = SqliteDataStore;
+			sourceTree = "<group>";
+		};
+		17AF51AC23AA05D7002245EA /* SqliteDataStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				17AF51AD23AA05D7002245EA /* SqliteDataStoreTests.swift */,
+				17AF51AF23AA05D7002245EA /* Info.plist */,
+			);
+			path = SqliteDataStoreTests;
+			sourceTree = "<group>";
+		};
+		17AF51B723AA05D7002245EA /* SqliteDataStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17AF51B823AA05D7002245EA /* SqliteDataStoreUITests.swift */,
+				17AF51BA23AA05D7002245EA /* Info.plist */,
+			);
+			path = SqliteDataStoreUITests;
+			sourceTree = "<group>";
+		};
+		A575D2BD0E3FDD74F9760D69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BBAC4E7943799C43FCCF3BE /* Pods-SqliteDataStore.debug.xcconfig */,
+				070F2FC87FE8A08A469D52CD /* Pods-SqliteDataStore.release.xcconfig */,
+				A4843BAA209A9774F2B47B7C /* Pods-SqliteDataStore-SqliteDataStoreUITests.debug.xcconfig */,
+				9D529EF191B3DC5A2BE2F963 /* Pods-SqliteDataStore-SqliteDataStoreUITests.release.xcconfig */,
+				E1BB8BB27D22C936FEDFCA6F /* Pods-SqliteDataStoreTests.debug.xcconfig */,
+				EF76C86EB3D294B3237D882B /* Pods-SqliteDataStoreTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5A8076603870684BE4BFBF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1C9C769161631D88CABCD11 /* Pods_SqliteDataStore.framework */,
+				241A850D669AE4FCFB931EB7 /* Pods_SqliteDataStore_SqliteDataStoreUITests.framework */,
+				7F26D49BC000784CB2316EF1 /* Pods_SqliteDataStoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17AF519223AA05CF002245EA /* SqliteDataStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17AF51BD23AA05D7002245EA /* Build configuration list for PBXNativeTarget "SqliteDataStore" */;
+			buildPhases = (
+				041E4B14EDA43D2D8BAF6C59 /* [CP] Check Pods Manifest.lock */,
+				17AF518F23AA05CF002245EA /* Sources */,
+				17AF519023AA05CF002245EA /* Frameworks */,
+				17AF519123AA05CF002245EA /* Resources */,
+				631341486E44C7A1D655DD22 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SqliteDataStore;
+			productName = SqliteDataStore;
+			productReference = 17AF519323AA05CF002245EA /* SqliteDataStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17AF51A823AA05D7002245EA /* SqliteDataStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17AF51C023AA05D7002245EA /* Build configuration list for PBXNativeTarget "SqliteDataStoreTests" */;
+			buildPhases = (
+				D807748BB0EA9CFDF7697BE7 /* [CP] Check Pods Manifest.lock */,
+				17AF51A523AA05D7002245EA /* Sources */,
+				17AF51A623AA05D7002245EA /* Frameworks */,
+				17AF51A723AA05D7002245EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17AF51AB23AA05D7002245EA /* PBXTargetDependency */,
+			);
+			name = SqliteDataStoreTests;
+			productName = SqliteDataStoreTests;
+			productReference = 17AF51A923AA05D7002245EA /* SqliteDataStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17AF51B323AA05D7002245EA /* SqliteDataStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17AF51C323AA05D7002245EA /* Build configuration list for PBXNativeTarget "SqliteDataStoreUITests" */;
+			buildPhases = (
+				F1AA9A700E5F13FE3214CA6D /* [CP] Check Pods Manifest.lock */,
+				17AF51B023AA05D7002245EA /* Sources */,
+				17AF51B123AA05D7002245EA /* Frameworks */,
+				17AF51B223AA05D7002245EA /* Resources */,
+				730CDD9D1FFE7B60BD83AAD6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17AF51B623AA05D7002245EA /* PBXTargetDependency */,
+			);
+			name = SqliteDataStoreUITests;
+			productName = SqliteDataStoreUITests;
+			productReference = 17AF51B423AA05D7002245EA /* SqliteDataStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17AF518B23AA05CE002245EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "THOTA NAGARAJU";
+				TargetAttributes = {
+					17AF519223AA05CF002245EA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					17AF51A823AA05D7002245EA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 17AF519223AA05CF002245EA;
+					};
+					17AF51B323AA05D7002245EA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 17AF519223AA05CF002245EA;
+					};
+				};
+			};
+			buildConfigurationList = 17AF518E23AA05CE002245EA /* Build configuration list for PBXProject "SqliteDataStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17AF518A23AA05CE002245EA;
+			productRefGroup = 17AF519423AA05CF002245EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17AF519223AA05CF002245EA /* SqliteDataStore */,
+				17AF51A823AA05D7002245EA /* SqliteDataStoreTests */,
+				17AF51B323AA05D7002245EA /* SqliteDataStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17AF519123AA05CF002245EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AF51A323AA05D7002245EA /* LaunchScreen.storyboard in Resources */,
+				17AF51A023AA05D7002245EA /* Assets.xcassets in Resources */,
+				17AF519E23AA05CF002245EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AF51A723AA05D7002245EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AF51B223AA05D7002245EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		041E4B14EDA43D2D8BAF6C59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SqliteDataStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		631341486E44C7A1D655DD22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SqliteDataStore/Pods-SqliteDataStore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SqliteDataStore/Pods-SqliteDataStore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SqliteDataStore/Pods-SqliteDataStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		730CDD9D1FFE7B60BD83AAD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SqliteDataStore-SqliteDataStoreUITests/Pods-SqliteDataStore-SqliteDataStoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SqliteDataStore-SqliteDataStoreUITests/Pods-SqliteDataStore-SqliteDataStoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SqliteDataStore-SqliteDataStoreUITests/Pods-SqliteDataStore-SqliteDataStoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D807748BB0EA9CFDF7697BE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SqliteDataStoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1AA9A700E5F13FE3214CA6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SqliteDataStore-SqliteDataStoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17AF518F23AA05CF002245EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AF519B23AA05CF002245EA /* ViewController.swift in Sources */,
+				17AF519723AA05CF002245EA /* AppDelegate.swift in Sources */,
+				1755566D23AA300F00C216DE /* SCViewController.swift in Sources */,
+				17AF519923AA05CF002245EA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AF51A523AA05D7002245EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AF51AE23AA05D7002245EA /* SqliteDataStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AF51B023AA05D7002245EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AF51B923AA05D7002245EA /* SqliteDataStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17AF51AB23AA05D7002245EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17AF519223AA05CF002245EA /* SqliteDataStore */;
+			targetProxy = 17AF51AA23AA05D7002245EA /* PBXContainerItemProxy */;
+		};
+		17AF51B623AA05D7002245EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17AF519223AA05CF002245EA /* SqliteDataStore */;
+			targetProxy = 17AF51B523AA05D7002245EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17AF519C23AA05CF002245EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17AF519D23AA05CF002245EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17AF51A123AA05D7002245EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17AF51A223AA05D7002245EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17AF51BB23AA05D7002245EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17AF51BC23AA05D7002245EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17AF51BE23AA05D7002245EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BBAC4E7943799C43FCCF3BE /* Pods-SqliteDataStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SqliteDataStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagathota.SqliteDataStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17AF51BF23AA05D7002245EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070F2FC87FE8A08A469D52CD /* Pods-SqliteDataStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SqliteDataStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagathota.SqliteDataStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17AF51C123AA05D7002245EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BB8BB27D22C936FEDFCA6F /* Pods-SqliteDataStoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SqliteDataStoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagathota.SqliteDataStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SqliteDataStore.app/SqliteDataStore";
+			};
+			name = Debug;
+		};
+		17AF51C223AA05D7002245EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF76C86EB3D294B3237D882B /* Pods-SqliteDataStoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SqliteDataStoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagathota.SqliteDataStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SqliteDataStore.app/SqliteDataStore";
+			};
+			name = Release;
+		};
+		17AF51C423AA05D7002245EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4843BAA209A9774F2B47B7C /* Pods-SqliteDataStore-SqliteDataStoreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SqliteDataStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagathota.SqliteDataStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SqliteDataStore;
+			};
+			name = Debug;
+		};
+		17AF51C523AA05D7002245EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D529EF191B3DC5A2BE2F963 /* Pods-SqliteDataStore-SqliteDataStoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SqliteDataStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagathota.SqliteDataStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SqliteDataStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17AF518E23AA05CE002245EA /* Build configuration list for PBXProject "SqliteDataStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AF51BB23AA05D7002245EA /* Debug */,
+				17AF51BC23AA05D7002245EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17AF51BD23AA05D7002245EA /* Build configuration list for PBXNativeTarget "SqliteDataStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AF51BE23AA05D7002245EA /* Debug */,
+				17AF51BF23AA05D7002245EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17AF51C023AA05D7002245EA /* Build configuration list for PBXNativeTarget "SqliteDataStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AF51C123AA05D7002245EA /* Debug */,
+				17AF51C223AA05D7002245EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17AF51C323AA05D7002245EA /* Build configuration list for PBXNativeTarget "SqliteDataStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AF51C423AA05D7002245EA /* Debug */,
+				17AF51C523AA05D7002245EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17AF518B23AA05CE002245EA /* Project object */;
+}
